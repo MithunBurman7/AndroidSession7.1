@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mithunburman.searchingdemo.MainActivity">
+
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Search or Type URL ..."
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp" />
+
+    <Button
+        android:id="@+id/GoButton"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:text="Go"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:background="#4169e1"
+        android:layout_alignTop="@+id/EditText"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find more ...."
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/EditText"
+        android:layout_alignEnd="@+id/EditText" />
+
+
+</RelativeLayout>
